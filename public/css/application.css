@@ -25,30 +25,32 @@ header img{
 }
 
 .racer_table #dino td{
+  width: 10%;
+  /*height: 11em;*/
   background-image: url('../empty_lane.jpg');
   /*height: 50%;*/
-  background-size: 100%;
+  background-size: 100% auto;
 
 }
 
 .racer_table #jeep td{
   background-image: url('../empty_lane.jpg');
-  background-size: 100%;
+  background-size: 100% auto;
   /*height: 10em;*/
 }
 /*th {
   text-align: left;
   }*/
   #dino td.active{
-/*    height: 10em;
-    width: 10%;*/
+    /*height: 10em;*/
+    width: 10%;
     background-image: url('../dino.jpg');
     background-size: 100% auto;
   }
 
   #jeep td.active{
-    background-size: 100% auto;
     background-image: url('../jeep.jpg');
+    background-size: 100% auto;
   }
 
 
